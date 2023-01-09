@@ -25,7 +25,7 @@ from allennlp.common.file_utils import cached_path
 
 from allennlp.data.fields import TextField, LabelField
 from allennlp.data.token_indexers import TokenIndexer, SingleIdTokenIndexer
-from allennlp.data.tokenizers import Token, Tokenizer, WordTokenizer
+from allennlp.data.tokenizers import Token, Tokenizer
 from allennlp.data.vocabulary import Vocabulary
 
 from allennlp.data import Instance

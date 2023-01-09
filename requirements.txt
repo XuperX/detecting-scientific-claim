@@ -1,8 +1,21 @@
 # pytorch library
 torch>=0.4.0
 
-# model
-allennlp
+# cython. which only works for allennlp 0.9.0
+Cython==3.0a1
+
+#
+editdistance==0.5.3
+
+# the correct version of cython needs to be installed before getting the old allennlp
+
+# model, this model was initially developed using allennlp 0.9.0
+allennlp==0.9.0
 
 # tokenization
 spacy>=2.0
+
+# overrides
+overrides==3.1.0
+
+
