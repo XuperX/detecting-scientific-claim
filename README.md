@@ -1,3 +1,11 @@
+# DIDN"T WORK
+What I've tried:
+- changed incorrect class import in allennlp, especially the ones about _WordTokenizer_
+- found out it was initially build using _AllenNLP==0.9.0_
+- tried to figure out the version of other dependencies and put them in the _requirements.txt_ file
+- But there are so many libraries that won't work with allennlp 0.9.0. Therefore, I gave up.
+
+
 # Claim Extraction for Scientific Publications
 
 Detecting claim from scientific publication using [discourse model](https://github.com/Franck-Dernoncourt/pubmed-rct) and transfer learning. 
